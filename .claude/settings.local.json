@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Test-Path \"C:\\\\reviewer\\\\git_agent\"; \\(Get-Item \"C:\\\\reviewer\\\\git_agent\"\\).GetType\\(\\).Name)",
+      "PowerShell([System.IO.Directory]::GetFileSystemEntries\\(\"C:\\\\reviewer\\\\git_agent\"\\))"
+    ]
+  }
+}
